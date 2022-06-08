@@ -654,7 +654,54 @@ Config.Products = {
             type = "item",
             slot = 4,
         },     
-    },       
+    },   
+    ["tbs"] = {
+        [1] = {
+            name = "statebull",
+            price = 200,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 1,
+            requiredJob = { "tbclubs" }
+        },
+        [2] = {
+            name = "fijiwasser",
+            price = 400,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 2,
+            requiredJob = { "tbclubs" }
+        },
+        [3] = {
+            name = "icetea",
+            price = 100,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 3,
+            requiredJob = { "tbclubs" }
+        },
+        [4] = {
+            name = "saft",
+            price = 100,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 4,
+            requiredJob = { "tbclubs" }
+        }, 
+        [5] = {
+            name = "caprisun",
+            price = 75,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 5,
+            requiredJob = { "tbclubs" }
+        },    
+    },      
     ["medic"] = {
         [1] = {
             name = "firstaid",
@@ -2274,6 +2321,19 @@ Config.Locations = {
         ["targetLabel"] = "Open Shop",
         ["products"] = Config.Products["getraenke"],
         ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+    ["tbs"] = {
+        ["label"] = "Tate Brothers Supplies Großverkauf",
+        ["coords"] = vector4(1391.8701, 3606.0598, 34.9809, 197.9141),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["tbs"],
+        ["showblip"] = false,
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
