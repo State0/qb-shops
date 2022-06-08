@@ -2326,7 +2326,7 @@ Config.Locations = {
     },
     ["tbs"] = {
         ["label"] = "Tate Brothers Supplies Großverkauf",
-        ["coords"] = vector4(1391.8701, 3606.0598, 34.9809, 197.9141),
+        ["coords"] = vector4(801.54, -2503.14, 22.17, 85.83),
         ["ped"] = 'mp_m_shopkeep_01',
         ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
         ["radius"] = 1.5,
