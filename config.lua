@@ -221,6 +221,46 @@ Config.Products = {
             type = "item",
             slot = 9,
         },
+        [10] = {
+            name = "statebull",
+            price = 200,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 10,
+        },
+        [11] = {
+            name = "fijiwasser",
+            price = 400,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 11,
+        },
+        [12] = {
+            name = "icetea",
+            price = 100,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 12,
+        },
+        [13] = {
+            name = "saft",
+            price = 100,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 13,
+        }, 
+        [14] = {
+            name = "caprisun",
+            price = 75,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 14,
+        },  
     },
     ["mclarens"] = {
         [1] = {
@@ -655,52 +695,142 @@ Config.Products = {
             slot = 4,
         },     
     },   
-    ["tbs"] = {
-        [1] = {
-            name = "statebull",
-            price = 200,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 1,
-            requiredJob = { "tbclubs" }
-        },
-        [2] = {
-            name = "fijiwasser",
-            price = 400,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 2,
-            requiredJob = { "tbclubs" }
-        },
-        [3] = {
-            name = "icetea",
-            price = 100,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 3,
-            requiredJob = { "tbclubs" }
-        },
-        [4] = {
-            name = "saft",
-            price = 100,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 4,
-            requiredJob = { "tbclubs" }
-        }, 
-        [5] = {
-            name = "caprisun",
-            price = 75,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 5,
-            requiredJob = { "tbclubs" }
-        },    
+    ["tbs"] = {       
+    [1] = {
+        name = "water_bottle",
+        price = 12,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 1,
+        requiredJob = { "tbclubs" }
+    },
+    [2] = {
+        name = "kurkakola",
+        price = 12,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 2,
+        requiredJob = { "tbclubs" }
+    },
+    [3] = {
+        name = "beerbottle",
+        price = 75,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 3,
+        requiredJob = { "tbclubs" }
+    },
+    [4] = {
+        name = "beer",
+        price = 25,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 4,
+        requiredJob = { "tbclubs" }
+    },
+    [5] = {
+        name = "whiskey",
+        price = 35,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 5,
+        requiredJob = { "tbclubs" }
+    },
+    [6] = {
+        name = "vodka",
+        price = 35,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 6,
+        requiredJob = { "tbclubs" }
+    },
+    [7] = {
+        name = "wine",
+        price = 35,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 7,
+        requiredJob = { "tbclubs" }
+    },
+    [8] = {
+        name = "zeroade",
+        price = 125,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 8,
+        requiredJob = { "tbclubs" }
+    },
+    [9] = {
+        name = "shinebottle",
+        price = 75,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 9,
+        requiredJob = { "tbclubs" }
+    },
+    [10] = {
+        name = "robbybubble",
+        price = 75,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 9,
+        requiredJob = { "tbclubs" }
+    },
+    [11] = {
+        name = "statebull",
+        price = 100,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 12,
+        requiredJob = { "tbclubs" }
+    },
+    [12] = {
+        name = "fijiwasser",
+        price = 200,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 12,
+        requiredJob = { "tbclubs" }
+    },
+    [13] = {
+        name = "icetea",
+        price = 50,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 13,
+        requiredJob = { "tbclubs" }
+    },
+    [14] = {
+        name = "saft",
+        price = 50,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 14,
+        requiredJob = { "tbclubs" }
+    }, 
+    [15] = {
+        name = "caprisun",
+        price = 35,
+        amount = 50,
+        info = {},
+        type = "item",
+        slot = 15,
+        requiredJob = { "tbclubs" }
+    },    
     },      
     ["medic"] = {
         [1] = {
