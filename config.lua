@@ -223,7 +223,7 @@ Config.Products = {
         },
         [10] = {
             name = "statebull",
-            price = 200,
+            price = 250,
             amount = 50,
             info = {},
             type = "item",
@@ -231,7 +231,7 @@ Config.Products = {
         },
         [11] = {
             name = "fijiwasser",
-            price = 400,
+            price = 500,
             amount = 50,
             info = {},
             type = "item",
@@ -239,7 +239,7 @@ Config.Products = {
         },
         [12] = {
             name = "icetea",
-            price = 100,
+            price = 150,
             amount = 50,
             info = {},
             type = "item",
@@ -247,7 +247,7 @@ Config.Products = {
         },
         [13] = {
             name = "saft",
-            price = 100,
+            price = 150,
             amount = 50,
             info = {},
             type = "item",
@@ -1065,7 +1065,31 @@ Config.Products = {
             info = {},
             type = "item",
             slot = 19,
-        },          
+        },             
+        [20] = {
+            name = "spray",
+            price = 100,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 20,
+        },                
+        [21] = {
+            name = "spray_remover",
+            price = 50,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 21,
+        },                
+        [22] = {
+            name = "boombox",
+            price = 2500,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 22,
+        },             
     },
     ["weedshop"] = {
         [1] = {
