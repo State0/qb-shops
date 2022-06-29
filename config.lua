@@ -2439,6 +2439,19 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
+    ["beachbar"] = {
+        ["label"] = "Beach Bar",
+        ["coords"] = vector4(-1424.91, -1407.86, 4.56, 115.51),
+        ["ped"] = 'a_m_y_beach_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
+        ["radius"] = 3.5,
+        ["targetIcon"] = "fas fa-leaf",
+        ["targetLabel"] = "Bar",
+        ["products"] = Config.Products["mclarens"],
+        ["showblip"] = false,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
     ["cashies"] = {
         ["label"] = "Cashies Cafe",
         ["coords"] = vector4(244.57, -880.6, 30.49, 257.13),
